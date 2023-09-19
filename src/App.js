@@ -1,15 +1,19 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import Output from './src/output';
 
-const RoutesTree = () => {
+import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
+import HTMLLoader from './HTMLLoader';
+
+function App() {
   return (
     <Router>
-      <Routes>
-        <Route path="/itc505/homework/2" element={<Output />} />
-      </Routes>
+      <div>
+
+        <Route path="/itc505/homework/2" exact>
+        </Route>
+      </div>
     </Router>
+
   );
 }
 
-export default RoutesTree;
+export default App;
