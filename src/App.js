@@ -9,7 +9,6 @@ function App() {
       <div>
 
         <Route path="/itc505/homework/2" exact>
-          <HTMLLoader url={process.env.PUBLIC_URL + '/2.html'} />
         </Route>
       </div>
     </Router>
