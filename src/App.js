@@ -5,14 +5,7 @@ import HTMLLoader from './HTMLLoader';
 
 function App() {
   return (
-    <Router>
-      <div>
-
-        <Route path="/itc505/homework/2" exact>
-        </Route>
-      </div>
-    </Router>
-
+    <RouterTree />
   );
 }
 
